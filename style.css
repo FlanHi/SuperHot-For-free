@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
+#box-1 {
+    transition: all 2s;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 80%;
+    display: inline-block;
+    height: 550px;
+}
+
+#box-1:hover {
+    transition: all 2s;
+    width: 90%;
+    height: 620px;
+    background-color: crimson;
+}
+
+h1 {
+    color: white;
+}
+
+button {
+    width: 80%;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+a {
+    font-size: 30px;
+    color: black;
+}
+
+img {
+    border-radius: 50px;
+}
